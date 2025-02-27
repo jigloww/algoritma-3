@@ -10,13 +10,13 @@ public class MahasiswaDemo09 {
             arrayOfMahasiswa[i] = new Mahasiswa09();
 
             System.out.println("Masukkan Data Mahasiswa ke-" + (i+1));
-            System.out.println("NIM     : ");
+            System.out.print("NIM     : ");
             arrayOfMahasiswa[i].nim = sc.nextLine();
-            System.out.println("Nama    : ");
+            System.out.print("Nama    : ");
             arrayOfMahasiswa[i].nama = sc.nextLine();
-            System.out.println("Kelas   : ");
+            System.out.print("Kelas   : ");
             arrayOfMahasiswa[i].kelas = sc.nextLine();
-            System.out.println("IPK     : ");
+            System.out.print("IPK     : ");
             dummy = sc.nextLine();
             arrayOfMahasiswa[i].ipk = Float.parseFloat(dummy);
             System.out.println("------------------------------");
